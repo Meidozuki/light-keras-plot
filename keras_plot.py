@@ -1,3 +1,4 @@
+from functools import wraps
 def plotable(silent=False):
     '''
     Used on model.build to call tf.keras.utils.plot_model
